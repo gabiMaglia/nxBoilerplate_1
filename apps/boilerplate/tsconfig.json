@@ -34,8 +34,8 @@
     "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo"
   },
   "include": [
-    "../../apps/Felogi/.next/types/**/*.ts",
-    "../../dist/apps/Felogi/.next/types/**/*.ts",
+    "../../apps/boilerplate/.next/types/**/*.ts",
+    "../../dist/apps/boilerplate/.next/types/**/*.ts",
     "next-env.d.ts",
     "src/**/*.js",
     "src/**/*.jsx",

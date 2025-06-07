@@ -1,10 +1,10 @@
 {
-  "name": "@felogi/backend-e2e",
+  "name": "@boilerplate/backend-e2e",
   "version": "0.0.1",
   "private": true,
   "nx": {
     "implicitDependencies": [
-      "@felogi/backend"
+      "@boilerplate/backend"
     ],
     "targets": {
       "e2e": {
@@ -17,8 +17,8 @@
           "passWithNoTests": true
         },
         "dependsOn": [
-          "@felogi/backend:build",
-          "@felogi/backend:serve"
+          "@boilerplate/backend:build",
+          "@boilerplate/backend:serve"
         ]
       }
     }

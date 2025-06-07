@@ -4,7 +4,7 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/Felogi"
+      "path": "./apps/boilerplate"
     },
     {
       "path": "./apps/backend-e2e"

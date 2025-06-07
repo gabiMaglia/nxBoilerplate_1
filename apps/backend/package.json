@@ -1,5 +1,5 @@
 {
-  "name": "@felogi/backend",
+  "name": "@boilerplate/backend",
   "version": "0.0.1",
   "private": true,
   "nx": {
@@ -28,15 +28,15 @@
           "build"
         ],
         "options": {
-          "buildTarget": "@felogi/backend:build",
+          "buildTarget": "@boilerplate/backend:build",
           "runBuildTargetDependencies": false
         },
         "configurations": {
           "development": {
-            "buildTarget": "@felogi/backend:build:development"
+            "buildTarget": "@boilerplate/backend:build:development"
           },
           "production": {
-            "buildTarget": "@felogi/backend:build:production"
+            "buildTarget": "@boilerplate/backend:build:production"
           }
         }
       },
